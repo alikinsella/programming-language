@@ -9,9 +9,158 @@
   </head>
   <body>
     <div class="container">
-
+      <h1>Programming Language Selector Bot 2.6</h1>
+      <h3>Have you always wanted to study coding, but never known which language to pick? This handy-dandy selector will decide for you based on your unconscious preferences, preferences even you aren't aware of!</h3>
+      <h3>Just answer the questions below honestly and automatically. Remember, the only way to determine what career you should have is to let this bot peer into your soul. And no changing of answers!</h3>
+      <div>
+        <form id="questions">
+          <div class="form-group">  
+            <h4>1. What programming languages do you already know?</h4>
+            <div class="checkbox">
+              <label for="question1">
+                <input type="checkbox" name="question1" value="c">JavaScript
+              </label>
+            </div> 
+            <div class="checkbox">
+              <label for="question1">
+                <input type="checkbox" name="question1" value="c">
+                Ruby
+              </label>
+            </div> 
+            <div class="checkbox">
+              <label for="question1">
+                <input type="checkbox" name="question1" value="c">
+                C#
+              </label>
+            </div> 
+            <div class="checkbox">
+              <label for="question1">
+                <input type="checkbox" name="question1" value="c">
+                Python
+              </label>
+            </div>    
+            <div class="checkbox">
+              <label for="question1">
+                <input type="checkbox" name="question1" value="c">
+                Rails
+              </label>
+            </div>
+          </div>
+          <div class="form-group">  
+            <label for="language"><h4>2. What's your favorite (non-programming) language to speak?</h4></label>
+            <input id="language" type="text">
+          </div>
+          <div class="form-group">  
+            <label for="peeBreaks"><h4>3. On average, how many times do you get up in the middle of the night?</h4></label>
+            <input id="peeBreaks" type="text">
+          </div>
+          <div class="form-group">  
+            <h4>4. ____ is the greatest programmer of all time.</h4> 
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question4">
+                    <input type="radio" name="question4" value="a">
+                    A. Sr. Thea Bowman
+                  </label>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question4">
+                    <input type="radio" name="question4" value="b">
+                    B. Kateri Tekakwitha
+                  </label>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question4">
+                    <input type="radio" name="question4" value="c">
+                    C. Elizabeth Ann Seaton
+                  </label>
+                </div>        
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question4">
+                    <input type="radio" name="question4" value="d">
+                    D. Katharine Drexel
+                  </label>
+                </div>        
+              </div>
+            </div>
+          </div> 
+          <div class="form-group"> 
+            <h4>5. It's Friday night during quarantine. What are you about to get up to?</h4> 
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question5">
+                    <input type="radio" name="question5" value="a">
+                    A. I've been waiting all week to finally be able to stare at my friends staring at me through our computer screens.
+                  </label>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question5">
+                    <input type="radio" name="question5" value="b">
+                    B. I might look out the window and drink a beer.
+                  </label>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question5">
+                    <input type="radio" name="question5" value="c">
+                    C. Well, since it's Friday, I'll probably eat dinner.
+                  </label>
+                </div>        
+              </div>
+              <div class="col-lg-3">
+                <div class="radio">
+                  <label for="question5">
+                    <input type="radio" name="question5" value="d">
+                    D. Friday, huh? If it were Saturday, I'd walk around my apartment counting floorboards, but Friday&mdash;not sure.
+                  </label>
+                </div>        
+              </div>
+            </div>
+          </div>
+          <div class="form-group"> 
+            <h4>6. What's your email address?</h4>
+            <input id="email" type="email">
+          </div>
+        
+          <div>
+            <button type="submit" class="btn">What's my future?</button>
+          </div>
+          
+        </form>
+      </div>
+      <div class="results">
+        <!-- If I have time, tell them to drink more or less water.-->
+        <p id="answerA">
+          Born in Mississippi in 1937, <span class="special">Sr. Thea Bowman</span> converted to Catholicism as a child. She earned a BA, MA, and PhD in English (writing her dissertation on Faulkner). Education was always important to her, something that is honored by the schools across the US named after her. Bowman was an advocate for education, an activist for racial justice, and a major force in the American Catholic Church. This is why you'd be best at <span class="special">Python</span>! It's great that you like to speak <span class="language" class="special"></span>; Thea liked English enough to get three degrees in it!
+        </p>
+        
+        <p id="answerB">
+          <span class="special">Kateri Tekakwitha</span> wasn't born Catholic because she was indigenous, while Catholicism was imported. After her whole family died in a smallpox epidemic (also imported!) she converted to Catholicism. Her given name, Tekawitha, means "she who bumps into things"&mdash;maybe she was clumsy! One of her miracles was that all of her smallpox scars vanished upon her death at age 24. You don't have much time, so get down to <span class="special">JavaScript</span>! It's great that you like to speak <span class="language" class="special"></span>; Tekawitha grew up speaking Mohawk. Maybe you could learn that after <span class="special">JavaScript</span>.
+        </p>
+        
+        <p id="answerC">
+          Just like Sr. Thea Bowman, <span class="special">Elizabeth Ann Seton's</span> father was a physician and she was not raised Catholic, but Episcopalian in her case. But that didn't stop her from becoming the first Catholic saint born in the what would become the United States! She was a wife and a mother before becoming a nun&mdash;and you thought nuns had to be virgins! You, too, are unconventional and full of surprises which is why <span class="special">Ruby</span> is the best for you! It's great that you like to speak <span class="language" class="special"></span>; you could have talked to Elizabeth. She grew up in New York, but her father's family was from France, so maybe she knew some French, too.
+        </p>
+        
+        <p id="answerD">
+          <span class="special">Katharine Drexel</span>, the millionaire saint! Her mother's death from cancer when Katherine was just a child helped teach her the insignificance of money in the face of life. When her father died and left her nearly $14 million, she eschewed high society and decided to become a nun, a nun that would use all that ill-begotten wealth to build schools for the disadvantaged, especially Native Americans and African Americans. You don't need money; you need <span class="special">C#</span>! It's great that you like to speak <span class="language" class="special"></span>; Katharine had private tutors as a child, traveled extensively around Europe (including to the Vatican where she had a private audience with the Pope), and likely spoke a few continental European languages.
+        </p>
+      </div>
     </div>
   </body>
 
 
 </html>
+
+

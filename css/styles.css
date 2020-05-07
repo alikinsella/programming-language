@@ -1,0 +1,17 @@
+h1 {
+  color: teal;
+  text-align: center;
+}
+.special {
+  color: teal;
+  font-weight: 900;
+}
+.results p {
+  display: none;
+}
+
+.btn {
+  font-weight: 900;
+  background-color: teal;
+  border-color: #ccc;
+}
