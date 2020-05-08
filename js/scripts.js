@@ -18,6 +18,12 @@ $(document).ready(function() {
       $(".results #answerD").show();
     }
     
+    var peeBreaks = parseInt($("input#peeBreaks").val());
+    if (peeBreaks <= 1) {
+      alert("You should probably drink more water!");
+    } else if (peeBreaks >=2) {
+      alert("You could probably drink less water.");
+    }
 
     
     event.preventDefault();
