@@ -8,6 +8,7 @@ h1 {
 }
 .results p {
   display: none;
+  font-size: 200%;
 }
 
 .btn {

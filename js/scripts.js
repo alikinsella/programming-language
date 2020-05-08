@@ -8,7 +8,6 @@ $(document).ready(function() {
     $(".language").text(languageInput);
     
     var question4 = $("input:radio[name=question4]:checked").val();
-    debugger;
     if (question4 === "a") {
       $(".results #answerA").show();
     } else if (question4 === "b") {
@@ -18,6 +17,8 @@ $(document).ready(function() {
     } else if (question4 === "d") {
       $(".results #answerD").show();
     }
+    
+
     
     event.preventDefault();
   });
