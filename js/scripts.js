@@ -9,6 +9,7 @@ $(document).ready(function() {
     
     var question4 = $("input:radio[name=question4]:checked").val();
     $(".well").show();
+    $(".results p").hide();
     if (question4 === "a") {
       $(".results #answerA").show();
     } else if (question4 === "b") {
