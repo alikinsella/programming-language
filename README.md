@@ -27,7 +27,7 @@ _If you have issues with the links, you can find the repositories on my github. 
 
 ## Technologies Used
 
-_This website uses HTML, CSS, Bootstrap, JavaScript, and JQuery. Unfortunately, I dont' think there's anything extra cool._
+_This website uses HTML, CSS, Bootstrap, JavaScript, and JQuery. Unfortunately, I don't think there's anything extra cool._
 
 ### License
 
