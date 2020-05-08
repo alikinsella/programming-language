@@ -10,7 +10,7 @@ _This page is designed to help you fulfill your destiny. Few people realize that
 
 ## Link to this site on GitHub Pages
 
-https://alikinsella.github.io/programming-language
+https://alikinsella.github.io/programming-language/
 
 ## Setup/Installation Requirements
 
