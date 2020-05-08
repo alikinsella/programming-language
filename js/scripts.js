@@ -8,6 +8,7 @@ $(document).ready(function() {
     $(".language").text(languageInput);
     
     var question4 = $("input:radio[name=question4]:checked").val();
+    $(".well").show();
     if (question4 === "a") {
       $(".results #answerA").show();
     } else if (question4 === "b") {
@@ -24,7 +25,6 @@ $(document).ready(function() {
     } else if (peeBreaks >=2) {
       alert("You could probably drink less water.");
     }
-
     
     event.preventDefault();
   });

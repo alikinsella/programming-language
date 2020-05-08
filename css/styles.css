@@ -15,4 +15,8 @@ h1 {
   font-weight: 900;
   background-color: teal;
   border-color: #ccc;
+  margin-bottom: 20px;
+}
+.well {
+  display: none;
 }
